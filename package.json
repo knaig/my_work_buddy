@@ -1,0 +1,22 @@
+{
+  "name": "work-buddy-ai-agent",
+  "version": "1.0.0",
+  "description": "AI Agent for career counseling and workplace support using Twilio WhatsApp and Couchbase Capella",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "natural": "^5.1.13",
+    "moment": "^2.29.1",
+    "twilio": "^3.77.0",
+    "couchbase": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
